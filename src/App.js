@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Input from './comp/input.jsx'
+import { useState } from 'react';
+import Display from './comp/display.jsx';
+
+
+
 
 function App() {
+  
+  let arr=[{id:1,val:"hamdi"},{id:2,val:"sjws"}];
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Input arr={arr}/>
+      {/* <Display  arr={arr}/> */}
+
+     
     </div>
   );
 }

@@ -1,0 +1,62 @@
+.main{
+    background-color: rgb(192, 226, 145);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.main>div{
+    border: 1px solid red;
+}
+.op{
+    width: 30vw;
+    height: auto;
+    
+    background-color: rgba(166, 238, 238, 0.559);
+    text-align: left;
+    padding: 10px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-y: visible;
+    white-space: nowrap;
+   
+}
+
+.ab{
+    background-color: rgba(207, 96, 96, 0.682);
+}
+.bo{
+    background-color: rgb(255, 238, 127);
+    border: 1px solid black;
+    height: auto;
+    position: relative;
+    
+    /* height: 18px; */
+    margin-top: 10px;
+    padding: 10px;
+    /* overflow-y: auto; */
+    
+}
+.bo:hover{
+    background-color: aqua;
+    cursor:pointer;
+}
+p{
+    background-color: rgb(74, 55, 32);
+    border: 1px solid red;
+    background-color: rgb(69, 168, 135);
+    height: 300px;
+    color: antiquewhite;
+}
+button:hover{
+    background-color: yellow;
+}
+ button{
+    float: right;
+    /* position: absolute; */
+    /* top: 0px; */
+    position: relative;
+    right: 0px;
+ }
+ .aa1{
+    float: none;
+ }
